@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;500;600&family=Diphylleia&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Poppins:wght@200;300;400;500&family=Silkscreen&display=swap');
+
+:root {
+    --blue: blue;
+    --white: white;
+    --white-second: rgba(255, 255, 255, 0.15);;
+    --white-third: rgba(255, 255, 255, 0.20);;
+    --black: black;
+    --black-second: rgba(0, 0, 0, 0.15);
+    --black-third: #171717;
+    --darkblue: darkblue;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-header {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.container-footer {
+    text-align: center;
+}
+
+.container-footer input {
+    border: none;
+    resize: none;
+    border: 1px solid var(--white-third);
+    background: var(--black);
+    color: var(--white);
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+
+.container-footer button {
+    border: none;
+    resize: none;
+    background: var(--blue);
+    color: var(--white);
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    margin: 5px;
+}
+
+.container-footer button:hover {
+    border: none;
+    resize: none;
+    background: var(--darkblue);
+    color: var(--white);
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    margin: 5px;
+}
+
+.container-result {
+    border: 1px solid var(--white-third);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+
+.container-result-hr {
+    border: none;
+    border-top: 1px solid var(--black-third);
+
+}
+
+@media screen and (max-width: 340px) {
+    body {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+}
+
+@media screen and (min-width: 1048px) {
+    body {
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+}
+    
+@media screen and (min-width: 1500px) {
+    body {
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+}

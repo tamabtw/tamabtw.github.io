@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container {
+    background-color: #171717;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 64px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+.password-container {
+    text-align: center;
+}
+
+#password {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #171717;
+    border-radius: 5px;
+}
+
+#generate {
+    margin-top: 10px;
+    background: blue;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.options {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+label, input[type="number"] {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Pixelify+Sans:wght@400;500;600;700&family=Silkscreen:wght@400;700&display=swap');
+
+:root {
+    --primary: #FFFFFF;
+    --secondary: whitesmoke;
+    --tertiary: #000000;
+    --border: rgba(0, 0, 0, 0.15);;
+}
+
+.dark {
+    --primary: #000000;
+    --secondary: #171717;
+    --tertiary: #FFFFFF;
+    --border: rgba(255, 255, 255, 0.15);
+}
+
+body {
+    background: var(--primary);
+    color: var(--tertiary);
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-button {
+    display: flex;
+    background-color: var(--secondary);
+    border: 1px solid var(--border);
+    width: fit-content;
+    padding: 3px;
+    margin: 12px;
+    border-radius: 100px;
+}
+
+.container-button:hover {
+    display: flex;
+    background-color: #56B8DD;
+    border: 1px solid var(--border);
+    width: fit-content;
+    padding: 3px;
+    margin: 12px;
+    border-radius: 100px;
+}
+
+p {
+    margin: 20px;
+    color: var(--tertiary); 
+}
+
+.icon-image {
+    width: 64px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 128px;
+}
+
+nav {
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    padding: 21px;
+    margin: 21px;
+    background-color: var(--secondary);
+    border-radius: 100px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-text {
+    margin-top: 4px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a {
+    margin-top: 21px;
+    margin-left: 24px;
+    margin-right: 16px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.icon-toggle {
+    width: 30px;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+    body {
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+}
+
+@media (min-width: 1920px) {
+    body {
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagen</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pagen (Password Generator)</h1>
+        <div class="password-container">
+            <input type="text" id="password" readonly>
+            <button id="generate">Generate Password</button>
+        </div>
+        <div class="options">
+            <label for="length">Password Length:</label>
+            <div class="num">
+                <input type="number" id="length" value="12" min="6" max="30">
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="uppercase" checked> Uppercase
+                <input type="checkbox" id="lowercase" checked> Lowercase
+                <input type="checkbox" id="numbers" checked> Numbers
+                <input type="checkbox" id="symbols" checked> Symbols
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

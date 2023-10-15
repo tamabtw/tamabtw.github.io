@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;500;600&family=Diphylleia&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Poppins:wght@200;300;400;500&family=Silkscreen&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: black;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container-heading {
+    text-align: center;
+    color: white;
+}
+
+.note {
+  background-color: #171717;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.note textarea {
+  width: 100%;
+  height: 100px;
+  border: none;
+  resize: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  padding-top: 10px;
+  background-color: #1C1C1C;
+  color: white;
+}
+.note button {
+  margin-top: 10px;
+  border: none;
+  resize: none;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.note button.delete {
+  border: none;
+  resize: none;
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 100px;
+  font-family: 'Poppins', sans-serif;
+}

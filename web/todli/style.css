@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Silkscreen:wght@400;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    margin-right: 13%;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    background: black;
+}
+
+.container-to-do-app {
+    width: 100%;
+    background: black;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.container-to-do-app-heading {
+    text-align: center;
+}
+
+.container-to-do-app-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #171717;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+input.container-to-do-app-row-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 20px;
+    color: white;
+}
+
+button.container-to-do-app-row-button {
+    border: none;
+    outline: none;
+    padding: 20px 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.container-list li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.container-list li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(checkedun.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+.container-list li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+.container-list li.checked::before {
+    color: #555;
+    background-image: url(checked.png);
+}
+
+.container-list li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+
+.container-list li span:hover {
+    background-color: whitesmoke;
+    border-radius: 100px;
+}
+
+@media screen and (min-width: 820px) {
+    body {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 13%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        margin-top:10%;
+        margin-bottom: 23%;
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+}
