@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Pixelify+Sans:wght@400;500;600;700&family=Silkscreen:wght@400;700&display=swap');
 
 :root {
-    --primary: #FFFFFF;
-    --secondary: whitesmoke;
-    --tertiary: #000000;
-    --border: rgba(0, 0, 0, 0.15);;
+    --primary: #100328;
+    --secondary: #010332;
+    --tertiary: #FFFFFF;
+    --border: rgba(255, 255, 255, 0.15);
 }
 
 .dark {
-    --primary: #000000;
-    --secondary: #171717;
-    --tertiary: #FFFFFF;
-    --border: rgba(255, 255, 255, 0.15);
+    --primary: #F1EAFF;
+    --secondary: #D7D8FF;
+    --tertiary: #000000;
+    --border: rgba(0, 0, 0, 0.15);;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     color: var(--tertiary);
     margin-left: 3px;
     margin-right: 3px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
     height: 100vh;
 }
 
@@ -42,7 +42,7 @@ body {
     width: fit-content;
     padding: 3px;
     margin: 12px;
-    border-radius: 100px;
+    border-radius: 20px;
 }
 
 .container-button:hover {
@@ -52,7 +52,7 @@ body {
     width: fit-content;
     padding: 3px;
     margin: 12px;
-    border-radius: 100px;
+    border-radius: 20px;
 }
 
 p {
@@ -79,7 +79,7 @@ nav {
     padding: 21px;
     margin: 21px;
     background-color: var(--secondary);
-    border-radius: 100px;
+    border-radius: 18px;
 }
 
 .nav-container {
